@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ef" red="e0" type="rgb"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[942, 344]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="separator_AirportFilter" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="tgb_ActiveStatus" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="lbl_Classification" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txf_Classification" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="ScrollPane_ListCountries" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_LongitudeMin" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_LongitudeMax" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="lbl_LatitudeMax" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_LatitudeMin" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lbl_Coordinates" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="sld_LatitudeMin" alignment="1" pref="182" max="32767" attributes="0"/>
+                          <Component id="sld_LongitudeMin" alignment="1" pref="182" max="32767" attributes="0"/>
+                          <Component id="sld_LatitudeMax" alignment="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="sld_LongitudeMax" alignment="1" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txt_LatitudeMax" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                          <Component id="txt_LatitudeMin" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="txf_LongitudeMax" min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="txf_LongitudeMin" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbl_ConnectionsFromThis" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ConnectionsToThis" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txf_ConnectionsFromThis" pref="40" max="32767" attributes="0"/>
+                                  <Component id="txf_ConnectionsToThis" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lbl_AirlineCompany" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cbx_AirlineCompany" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="lbl_MinNumberAirplanes" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txf_MinNumberAirplanes" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="ScrollPane_ListAirports" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tgb_ActiveStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_Classification" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txf_Classification" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ScrollPane_ListCountries" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="lbl_Coordinates" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="sld_LatitudeMax" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="lbl_LatitudeMax" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sld_LatitudeMin" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="lbl_LatitudeMin" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sld_LongitudeMax" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="lbl_LongitudeMax" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="txf_MinNumberAirplanes" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbx_AirlineCompany" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txf_ConnectionsToThis" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="txf_ConnectionsFromThis" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbl_ConnectionsFromThis" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="sld_LongitudeMin" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="lbl_LongitudeMin" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_LatitudeMax" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_MinNumberAirplanes" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_LatitudeMin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_AirlineCompany" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txf_LongitudeMax" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ConnectionsToThis" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txf_LongitudeMin" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="separator_AirportFilter" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ScrollPane_ListAirports" pref="158" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JToggleButton" name="tgb_ActiveStatus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status : Active"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tgb_ActiveStatusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Classification">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Classification higher than"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txf_Classification">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txf_ClassificationActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="ScrollPane_ListCountries">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="lst_Countries">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lbl_Coordinates">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Coordinates"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_LatitudeMax">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Latitude : MAX"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="sld_LatitudeMax">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ef" red="e0" type="rgb"/>
+        </Property>
+        <Property name="maximum" type="int" value="180"/>
+        <Property name="minimum" type="int" value="-180"/>
+        <Property name="value" type="int" value="180"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="sld_LatitudeMaxMouseDragged"/>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sld_LatitudeMaxMousePressed"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="sld_LatitudeMaxPropertyChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_LatitudeMax">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_LatitudeMaxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_LatitudeMin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Latitude : MIN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="sld_LatitudeMin">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ef" red="e0" type="rgb"/>
+        </Property>
+        <Property name="maximum" type="int" value="180"/>
+        <Property name="minimum" type="int" value="-180"/>
+        <Property name="value" type="int" value="-180"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="sld_LatitudeMinMouseDragged"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sld_LatitudeMinMouseClicked"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="sld_LatitudeMinPropertyChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_LatitudeMin">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_LatitudeMinActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_LongitudeMax">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Longitude : MAX"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txf_LongitudeMax">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txf_LongitudeMaxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSlider" name="sld_LongitudeMax">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ef" red="e0" type="rgb"/>
+        </Property>
+        <Property name="maximum" type="int" value="180"/>
+        <Property name="minimum" type="int" value="-180"/>
+        <Property name="value" type="int" value="180"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="sld_LongitudeMaxMouseDragged"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sld_LongitudeMaxMouseClicked"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="sld_LongitudeMaxPropertyChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_LongitudeMin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Longitude : MIN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txf_LongitudeMin">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txf_LongitudeMinActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSlider" name="sld_LongitudeMin">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ef" red="e0" type="rgb"/>
+        </Property>
+        <Property name="maximum" type="int" value="180"/>
+        <Property name="minimum" type="int" value="-180"/>
+        <Property name="value" type="int" value="-180"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="sld_LongitudeMinMouseDragged"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sld_LongitudeMinMouseClicked"/>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="sld_LongitudeMinPropertyChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_MinNumberAirplanes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Minimum Number of Airplanes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txf_MinNumberAirplanes">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txf_MinNumberAirplanesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_AirlineCompany">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Airline Company"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_AirlineCompany">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="All"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbx_AirlineCompanyActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_ConnectionsToThis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N. of Airlines Connections to this Airport"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txf_ConnectionsToThis">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txf_ConnectionsToThisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_ConnectionsFromThis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N. of Airline Connections from this Airport"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txf_ConnectionsFromThis">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txf_ConnectionsFromThisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="separator_AirportFilter">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="ScrollPane_ListAirports">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="lst_Airports">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
